@@ -27586,6 +27586,7 @@ configure-gdb:
 	  --srcdir=$${topdir}/$$module_srcdir \
 	  $(HOST_CONFIGARGS) --build=${build_alias} --host=${host_alias} \
 	  --target=${target_alias}  \
+	  --with-lzma=no \
 	  || exit 1
 @endif gdb
 
